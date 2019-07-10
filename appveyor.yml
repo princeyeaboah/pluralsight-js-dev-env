@@ -16,3 +16,8 @@ environment:
     # Output useful info for debugging.
     - node --version
     - npm --version
+    # run tests
+    - npm test
+
+    # Don't actually build.
+    build: off
